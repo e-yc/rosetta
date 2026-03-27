@@ -1,0 +1,42 @@
+{
+  "linear_bridge (from bridge.py)": {
+    "step": 6750,
+    "phase": "epoch_end",
+    "epoch": 3,
+    "loss": 2.5770451935418497,
+    "perplexity": 13.158200725216313,
+    "top1": 0.5168546916165642,
+    "top5": 0.7172870364115382,
+    "tokens": 14803
+  },
+  "mlp_2layer_procrustes": {
+    "step": 6750,
+    "phase": "epoch_end",
+    "epoch": 3,
+    "loss": 3.005201648314531,
+    "perplexity": 20.190287022873907,
+    "top1": 0.4487603864081605,
+    "top5": 0.6616226440586368,
+    "tokens": 14803
+  },
+  "mlp_2layer_random": {
+    "step": 6750,
+    "phase": "epoch_end",
+    "epoch": 3,
+    "loss": 4.472370465446193,
+    "perplexity": 87.56404473424453,
+    "top1": 0.3048030804566642,
+    "top5": 0.48287509288657704,
+    "tokens": 14803
+  },
+  "mlp_bottleneck_1024": {
+    "step": 6750,
+    "phase": "epoch_end",
+    "epoch": 3,
+    "loss": 5.2132675808957645,
+    "perplexity": 183.69331136131137,
+    "top1": 0.2313044653110856,
+    "top5": 0.40059447409308924,
+    "tokens": 14803
+  }
+}
