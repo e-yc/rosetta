@@ -1,0 +1,525 @@
+{
+  "models": {
+    "deepseek_v3": {
+      "vocab_size": 128815,
+      "tokenizer_type": "LlamaTokenizerFast"
+    },
+    "qwen3_32b": {
+      "vocab_size": 151669,
+      "tokenizer_type": "Qwen2TokenizerFast"
+    },
+    "glm4_9b": {
+      "vocab_size": 150384,
+      "tokenizer_type": "ChatGLM4Tokenizer"
+    },
+    "kimi_k2": {
+      "vocab_size": 163840,
+      "tokenizer_type": "TikTokenTokenizer"
+    },
+    "mistral_large": {
+      "vocab_size": 32768,
+      "tokenizer_type": "LlamaTokenizerFast"
+    },
+    "gpt_oss_20b": {
+      "vocab_size": 200019,
+      "tokenizer_type": "PreTrainedTokenizerFast"
+    }
+  },
+  "pairwise": {
+    "deepseek_v3_vs_glm4_9b": {
+      "shared_tokens": 22011,
+      "unique_to_deepseek_v3": 106804,
+      "unique_to_glm4_9b": 128373,
+      "overlap_pct": 0.0856,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 99,
+          "total_union": 614,
+          "pct": 0.1612
+        },
+        "common_english": {
+          "shared": 16776,
+          "total_union": 81938,
+          "pct": 0.2047
+        },
+        "subword_fragments": {
+          "shared": 4767,
+          "total_union": 130307,
+          "pct": 0.0366
+        },
+        "numeric": {
+          "shared": 369,
+          "total_union": 1703,
+          "pct": 0.2167
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 42626,
+          "pct": 0.0
+        }
+      }
+    },
+    "deepseek_v3_vs_gpt_oss_20b": {
+      "shared_tokens": 82268,
+      "unique_to_deepseek_v3": 46547,
+      "unique_to_gpt_oss_20b": 117751,
+      "overlap_pct": 0.3337,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 183,
+          "total_union": 202,
+          "pct": 0.9059
+        },
+        "common_english": {
+          "shared": 18217,
+          "total_union": 41503,
+          "pct": 0.4389
+        },
+        "subword_fragments": {
+          "shared": 62641,
+          "total_union": 203541,
+          "pct": 0.3078
+        },
+        "numeric": {
+          "shared": 1227,
+          "total_union": 1320,
+          "pct": 0.9295
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 0,
+          "pct": 0
+        }
+      }
+    },
+    "deepseek_v3_vs_kimi_k2": {
+      "shared_tokens": 91237,
+      "unique_to_deepseek_v3": 37578,
+      "unique_to_kimi_k2": 72603,
+      "overlap_pct": 0.453,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 184,
+          "total_union": 202,
+          "pct": 0.9109
+        },
+        "common_english": {
+          "shared": 15841,
+          "total_union": 32343,
+          "pct": 0.4898
+        },
+        "subword_fragments": {
+          "shared": 73990,
+          "total_union": 167562,
+          "pct": 0.4416
+        },
+        "numeric": {
+          "shared": 1222,
+          "total_union": 1311,
+          "pct": 0.9321
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 0,
+          "pct": 0
+        }
+      }
+    },
+    "deepseek_v3_vs_mistral_large": {
+      "shared_tokens": 10086,
+      "unique_to_deepseek_v3": 118729,
+      "unique_to_mistral_large": 22682,
+      "overlap_pct": 0.0666,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 95,
+          "total_union": 310,
+          "pct": 0.3065
+        },
+        "common_english": {
+          "shared": 9233,
+          "total_union": 23247,
+          "pct": 0.3972
+        },
+        "subword_fragments": {
+          "shared": 712,
+          "total_union": 122716,
+          "pct": 0.0058
+        },
+        "numeric": {
+          "shared": 46,
+          "total_union": 1281,
+          "pct": 0.0359
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 3943,
+          "pct": 0.0
+        }
+      }
+    },
+    "deepseek_v3_vs_qwen3_32b": {
+      "shared_tokens": 84030,
+      "unique_to_deepseek_v3": 44785,
+      "unique_to_qwen3_32b": 67639,
+      "overlap_pct": 0.4277,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 184,
+          "total_union": 207,
+          "pct": 0.8889
+        },
+        "common_english": {
+          "shared": 15960,
+          "total_union": 33271,
+          "pct": 0.4797
+        },
+        "subword_fragments": {
+          "shared": 67759,
+          "total_union": 161662,
+          "pct": 0.4191
+        },
+        "numeric": {
+          "shared": 127,
+          "total_union": 1314,
+          "pct": 0.0967
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 0,
+          "pct": 0
+        }
+      }
+    },
+    "glm4_9b_vs_gpt_oss_20b": {
+      "shared_tokens": 40401,
+      "unique_to_glm4_9b": 109983,
+      "unique_to_gpt_oss_20b": 159618,
+      "overlap_pct": 0.1303,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 107,
+          "total_union": 621,
+          "pct": 0.1723
+        },
+        "common_english": {
+          "shared": 23971,
+          "total_union": 90599,
+          "pct": 0.2646
+        },
+        "subword_fragments": {
+          "shared": 15938,
+          "total_union": 174446,
+          "pct": 0.0914
+        },
+        "numeric": {
+          "shared": 385,
+          "total_union": 1710,
+          "pct": 0.2251
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 42626,
+          "pct": 0.0
+        }
+      }
+    },
+    "glm4_9b_vs_kimi_k2": {
+      "shared_tokens": 35502,
+      "unique_to_glm4_9b": 114882,
+      "unique_to_kimi_k2": 128338,
+      "overlap_pct": 0.1274,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 106,
+          "total_union": 623,
+          "pct": 0.1701
+        },
+        "common_english": {
+          "shared": 20662,
+          "total_union": 82372,
+          "pct": 0.2508
+        },
+        "subword_fragments": {
+          "shared": 14355,
+          "total_union": 151399,
+          "pct": 0.0948
+        },
+        "numeric": {
+          "shared": 379,
+          "total_union": 1702,
+          "pct": 0.2227
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 42626,
+          "pct": 0.0
+        }
+      }
+    },
+    "glm4_9b_vs_mistral_large": {
+      "shared_tokens": 13933,
+      "unique_to_glm4_9b": 136451,
+      "unique_to_mistral_large": 18835,
+      "overlap_pct": 0.0823,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 118,
+          "total_union": 630,
+          "pct": 0.1873
+        },
+        "common_english": {
+          "shared": 9879,
+          "total_union": 77451,
+          "pct": 0.1276
+        },
+        "subword_fragments": {
+          "shared": 1279,
+          "total_union": 46351,
+          "pct": 0.0276
+        },
+        "numeric": {
+          "shared": 49,
+          "total_union": 826,
+          "pct": 0.0593
+        },
+        "non_latin": {
+          "shared": 2608,
+          "total_union": 43961,
+          "pct": 0.0593
+        }
+      }
+    },
+    "glm4_9b_vs_qwen3_32b": {
+      "shared_tokens": 48324,
+      "unique_to_glm4_9b": 102060,
+      "unique_to_qwen3_32b": 103345,
+      "overlap_pct": 0.1905,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 112,
+          "total_union": 622,
+          "pct": 0.1801
+        },
+        "common_english": {
+          "shared": 27263,
+          "total_union": 76818,
+          "pct": 0.3549
+        },
+        "subword_fragments": {
+          "shared": 20830,
+          "total_union": 132793,
+          "pct": 0.1569
+        },
+        "numeric": {
+          "shared": 119,
+          "total_union": 870,
+          "pct": 0.1368
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 42626,
+          "pct": 0.0
+        }
+      }
+    },
+    "gpt_oss_20b_vs_kimi_k2": {
+      "shared_tokens": 85824,
+      "unique_to_gpt_oss_20b": 114195,
+      "unique_to_kimi_k2": 78016,
+      "overlap_pct": 0.3087,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 195,
+          "total_union": 206,
+          "pct": 0.9466
+        },
+        "common_english": {
+          "shared": 21837,
+          "total_union": 42203,
+          "pct": 0.5174
+        },
+        "subword_fragments": {
+          "shared": 62548,
+          "total_union": 234314,
+          "pct": 0.2669
+        },
+        "numeric": {
+          "shared": 1244,
+          "total_union": 1312,
+          "pct": 0.9482
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 0,
+          "pct": 0
+        }
+      }
+    },
+    "gpt_oss_20b_vs_mistral_large": {
+      "shared_tokens": 10647,
+      "unique_to_gpt_oss_20b": 189372,
+      "unique_to_mistral_large": 22121,
+      "overlap_pct": 0.0479,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 95,
+          "total_union": 325,
+          "pct": 0.2923
+        },
+        "common_english": {
+          "shared": 9810,
+          "total_union": 38526,
+          "pct": 0.2546
+        },
+        "subword_fragments": {
+          "shared": 696,
+          "total_union": 178042,
+          "pct": 0.0039
+        },
+        "numeric": {
+          "shared": 46,
+          "total_union": 1304,
+          "pct": 0.0353
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 3943,
+          "pct": 0.0
+        }
+      }
+    },
+    "gpt_oss_20b_vs_qwen3_32b": {
+      "shared_tokens": 98864,
+      "unique_to_gpt_oss_20b": 101155,
+      "unique_to_qwen3_32b": 52805,
+      "overlap_pct": 0.391,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 199,
+          "total_union": 207,
+          "pct": 0.9614
+        },
+        "common_english": {
+          "shared": 22385,
+          "total_union": 42702,
+          "pct": 0.5242
+        },
+        "subword_fragments": {
+          "shared": 76121,
+          "total_union": 208610,
+          "pct": 0.3649
+        },
+        "numeric": {
+          "shared": 159,
+          "total_union": 1305,
+          "pct": 0.1218
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 0,
+          "pct": 0
+        }
+      }
+    },
+    "kimi_k2_vs_mistral_large": {
+      "shared_tokens": 10568,
+      "unique_to_kimi_k2": 153272,
+      "unique_to_mistral_large": 22200,
+      "overlap_pct": 0.0568,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 95,
+          "total_union": 326,
+          "pct": 0.2914
+        },
+        "common_english": {
+          "shared": 9700,
+          "total_union": 27100,
+          "pct": 0.3579
+        },
+        "subword_fragments": {
+          "shared": 728,
+          "total_union": 153380,
+          "pct": 0.0047
+        },
+        "numeric": {
+          "shared": 45,
+          "total_union": 1291,
+          "pct": 0.0349
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 3943,
+          "pct": 0.0
+        }
+      }
+    },
+    "kimi_k2_vs_qwen3_32b": {
+      "shared_tokens": 95368,
+      "unique_to_kimi_k2": 68472,
+      "unique_to_qwen3_32b": 56301,
+      "overlap_pct": 0.4332,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 198,
+          "total_union": 209,
+          "pct": 0.9474
+        },
+        "common_english": {
+          "shared": 20435,
+          "total_union": 33116,
+          "pct": 0.6171
+        },
+        "subword_fragments": {
+          "shared": 74591,
+          "total_union": 185510,
+          "pct": 0.4021
+        },
+        "numeric": {
+          "shared": 144,
+          "total_union": 1306,
+          "pct": 0.1103
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 0,
+          "pct": 0
+        }
+      }
+    },
+    "mistral_large_vs_qwen3_32b": {
+      "shared_tokens": 10566,
+      "unique_to_mistral_large": 22202,
+      "unique_to_qwen3_32b": 141103,
+      "overlap_pct": 0.0608,
+      "overlap_by_category": {
+        "single_chars": {
+          "shared": 95,
+          "total_union": 331,
+          "pct": 0.287
+        },
+        "common_english": {
+          "shared": 9721,
+          "total_union": 28126,
+          "pct": 0.3456
+        },
+        "subword_fragments": {
+          "shared": 703,
+          "total_union": 141274,
+          "pct": 0.005
+        },
+        "numeric": {
+          "shared": 47,
+          "total_union": 197,
+          "pct": 0.2386
+        },
+        "non_latin": {
+          "shared": 0,
+          "total_union": 3943,
+          "pct": 0.0
+        }
+      }
+    }
+  }
+}

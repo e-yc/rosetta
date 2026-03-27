@@ -1,0 +1,1112 @@
+{
+  "deepseek_v3_vs_glm4_9b": {
+    "overall": {
+      "bucket_1_pct": 0.9997,
+      "bucket_2_pct": 0.0003,
+      "bucket_3_pct": 0.0,
+      "avg_clean_points_per_sentence": 23.11
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9994,
+        "bucket_2_pct": 0.0006,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 13.02,
+        "avg_unit_size_model_a": 1.001,
+        "avg_unit_size_model_b": 1.0
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 38.27,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.01,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.9965,
+        "bucket_2_pct": 0.0035,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.72,
+        "avg_unit_size_model_a": 1.002,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mathematical": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.46,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mixed": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 32.54,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "multilingual": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 23.68,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.97,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "deepseek_v3_vs_gpt_oss_20b": {
+    "overall": {
+      "bucket_1_pct": 0.9838,
+      "bucket_2_pct": 0.004,
+      "bucket_3_pct": 0.0122,
+      "avg_clean_points_per_sentence": 23.63
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9817,
+        "bucket_2_pct": 0.016,
+        "bucket_3_pct": 0.0023,
+        "avg_clean_points_per_sentence": 17.79,
+        "avg_unit_size_model_a": 1.003,
+        "avg_unit_size_model_b": 1.019
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 38.46,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 29.62,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8797,
+        "bucket_2_pct": 0.0138,
+        "bucket_3_pct": 0.1065,
+        "avg_clean_points_per_sentence": 24.95,
+        "avg_unit_size_model_a": 1.137,
+        "avg_unit_size_model_b": 1.154
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.999,
+        "bucket_2_pct": 0.0005,
+        "bucket_3_pct": 0.0004,
+        "avg_clean_points_per_sentence": 28.58,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.992,
+        "bucket_2_pct": 0.0008,
+        "bucket_3_pct": 0.0073,
+        "avg_clean_points_per_sentence": 32.28,
+        "avg_unit_size_model_a": 1.008,
+        "avg_unit_size_model_b": 1.01
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9953,
+        "bucket_2_pct": 0.0047,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 26.29,
+        "avg_unit_size_model_a": 1.008,
+        "avg_unit_size_model_b": 1.0
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.93,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "deepseek_v3_vs_kimi_k2": {
+    "overall": {
+      "bucket_1_pct": 0.9763,
+      "bucket_2_pct": 0.0208,
+      "bucket_3_pct": 0.0029,
+      "avg_clean_points_per_sentence": 23.71
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9631,
+        "bucket_2_pct": 0.0369,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 14.41,
+        "avg_unit_size_model_a": 1.004,
+        "avg_unit_size_model_b": 0.95
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 38.38,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.06,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8636,
+        "bucket_2_pct": 0.109,
+        "bucket_3_pct": 0.0275,
+        "avg_clean_points_per_sentence": 25.12,
+        "avg_unit_size_model_a": 1.131,
+        "avg_unit_size_model_b": 0.94
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9957,
+        "bucket_2_pct": 0.0043,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.3,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 0.993
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9853,
+        "bucket_2_pct": 0.0147,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 32.68,
+        "avg_unit_size_model_a": 1.008,
+        "avg_unit_size_model_b": 0.985
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9723,
+        "bucket_2_pct": 0.0277,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 29.74,
+        "avg_unit_size_model_a": 1.007,
+        "avg_unit_size_model_b": 0.959
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.95,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "deepseek_v3_vs_mistral_large": {
+    "overall": {
+      "bucket_1_pct": 0.9795,
+      "bucket_2_pct": 0.002,
+      "bucket_3_pct": 0.0185,
+      "avg_clean_points_per_sentence": 29.32
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9381,
+        "bucket_2_pct": 0.0007,
+        "bucket_3_pct": 0.0613,
+        "avg_clean_points_per_sentence": 22.51,
+        "avg_unit_size_model_a": 1.003,
+        "avg_unit_size_model_b": 1.122
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 45.15,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 35.77,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8871,
+        "bucket_2_pct": 0.0162,
+        "bucket_3_pct": 0.0967,
+        "avg_clean_points_per_sentence": 31.6,
+        "avg_unit_size_model_a": 1.111,
+        "avg_unit_size_model_b": 1.178
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9996,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0004,
+        "avg_clean_points_per_sentence": 32.43,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9928,
+        "bucket_2_pct": 0.0002,
+        "bucket_3_pct": 0.007,
+        "avg_clean_points_per_sentence": 38.41,
+        "avg_unit_size_model_a": 1.007,
+        "avg_unit_size_model_b": 1.015
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9935,
+        "bucket_2_pct": 0.0017,
+        "bucket_3_pct": 0.0048,
+        "avg_clean_points_per_sentence": 42.22,
+        "avg_unit_size_model_a": 1.005,
+        "avg_unit_size_model_b": 1.018
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 8.39,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "deepseek_v3_vs_qwen3_32b": {
+    "overall": {
+      "bucket_1_pct": 0.9767,
+      "bucket_2_pct": 0.0156,
+      "bucket_3_pct": 0.0077,
+      "avg_clean_points_per_sentence": 24.34
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9792,
+        "bucket_2_pct": 0.0188,
+        "bucket_3_pct": 0.002,
+        "avg_clean_points_per_sentence": 14.12,
+        "avg_unit_size_model_a": 1.004,
+        "avg_unit_size_model_b": 1.025
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 38.87,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.07,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8704,
+        "bucket_2_pct": 0.0675,
+        "bucket_3_pct": 0.0621,
+        "avg_clean_points_per_sentence": 27.93,
+        "avg_unit_size_model_a": 1.122,
+        "avg_unit_size_model_b": 1.076
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.999,
+        "bucket_2_pct": 0.0005,
+        "bucket_3_pct": 0.0004,
+        "avg_clean_points_per_sentence": 28.67,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9917,
+        "bucket_2_pct": 0.0024,
+        "bucket_3_pct": 0.0059,
+        "avg_clean_points_per_sentence": 35.18,
+        "avg_unit_size_model_a": 1.008,
+        "avg_unit_size_model_b": 1.009
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9447,
+        "bucket_2_pct": 0.0528,
+        "bucket_3_pct": 0.0025,
+        "avg_clean_points_per_sentence": 29.81,
+        "avg_unit_size_model_a": 1.006,
+        "avg_unit_size_model_b": 1.113
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.97,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "glm4_9b_vs_gpt_oss_20b": {
+    "overall": {
+      "bucket_1_pct": 0.9988,
+      "bucket_2_pct": 0.0012,
+      "bucket_3_pct": 0.0,
+      "avg_clean_points_per_sentence": 23.0
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9887,
+        "bucket_2_pct": 0.0113,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 17.27,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.011
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 36.04,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.19,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 27.45,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mathematical": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.44,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mixed": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 31.49,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "multilingual": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 22.8,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.93,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "glm4_9b_vs_kimi_k2": {
+    "overall": {
+      "bucket_1_pct": 0.998,
+      "bucket_2_pct": 0.002,
+      "bucket_3_pct": 0.0,
+      "avg_clean_points_per_sentence": 23.12
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9879,
+        "bucket_2_pct": 0.0121,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 13.56,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 0.98
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 36.16,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.29,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.9912,
+        "bucket_2_pct": 0.0088,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 27.84,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 0.995
+      },
+      "mathematical": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.35,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mixed": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 31.49,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "multilingual": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 27.23,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.94,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "glm4_9b_vs_mistral_large": {
+    "overall": {
+      "bucket_1_pct": 0.9944,
+      "bucket_2_pct": 0.0,
+      "bucket_3_pct": 0.0056,
+      "avg_clean_points_per_sentence": 28.19
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.947,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.053,
+        "avg_clean_points_per_sentence": 22.0,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.101
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 44.16,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 35.92,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.9995,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0005,
+        "avg_clean_points_per_sentence": 35.22,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mathematical": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 32.4,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mixed": {
+        "bucket_1_pct": 0.999,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.001,
+        "avg_clean_points_per_sentence": 38.08,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.002
+      },
+      "multilingual": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 33.81,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 8.41,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "glm4_9b_vs_qwen3_32b": {
+    "overall": {
+      "bucket_1_pct": 0.9989,
+      "bucket_2_pct": 0.0011,
+      "bucket_3_pct": 0.0,
+      "avg_clean_points_per_sentence": 23.05
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9923,
+        "bucket_2_pct": 0.0077,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 13.68,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.011
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 36.08,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 29.28,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.998,
+        "bucket_2_pct": 0.002,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.11,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mathematical": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.02,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9985,
+        "bucket_2_pct": 0.0015,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 33.85,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.002
+      },
+      "multilingual": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 24.24,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.87,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "gpt_oss_20b_vs_kimi_k2": {
+    "overall": {
+      "bucket_1_pct": 0.9749,
+      "bucket_2_pct": 0.0211,
+      "bucket_3_pct": 0.004,
+      "avg_clean_points_per_sentence": 23.59
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9448,
+        "bucket_2_pct": 0.0552,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 17.68,
+        "avg_unit_size_model_a": 1.018,
+        "avg_unit_size_model_b": 0.951
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 36.25,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.26,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8598,
+        "bucket_2_pct": 0.1026,
+        "bucket_3_pct": 0.0376,
+        "avg_clean_points_per_sentence": 24.18,
+        "avg_unit_size_model_a": 1.152,
+        "avg_unit_size_model_b": 0.938
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9952,
+        "bucket_2_pct": 0.0048,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.37,
+        "avg_unit_size_model_a": 1.001,
+        "avg_unit_size_model_b": 0.993
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9846,
+        "bucket_2_pct": 0.0148,
+        "bucket_3_pct": 0.0006,
+        "avg_clean_points_per_sentence": 31.68,
+        "avg_unit_size_model_a": 1.01,
+        "avg_unit_size_model_b": 0.985
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9826,
+        "bucket_2_pct": 0.0174,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.98,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 0.978
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.89,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "gpt_oss_20b_vs_mistral_large": {
+    "overall": {
+      "bucket_1_pct": 0.9796,
+      "bucket_2_pct": 0.0019,
+      "bucket_3_pct": 0.0184,
+      "avg_clean_points_per_sentence": 29.19
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9377,
+        "bucket_2_pct": 0.0011,
+        "bucket_3_pct": 0.0613,
+        "avg_clean_points_per_sentence": 22.5,
+        "avg_unit_size_model_a": 1.014,
+        "avg_unit_size_model_b": 1.122
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 44.28,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 35.84,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8876,
+        "bucket_2_pct": 0.016,
+        "bucket_3_pct": 0.0964,
+        "avg_clean_points_per_sentence": 31.35,
+        "avg_unit_size_model_a": 1.126,
+        "avg_unit_size_model_b": 1.18
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9992,
+        "bucket_2_pct": 0.0005,
+        "bucket_3_pct": 0.0004,
+        "avg_clean_points_per_sentence": 32.56,
+        "avg_unit_size_model_a": 1.001,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9921,
+        "bucket_2_pct": 0.0009,
+        "bucket_3_pct": 0.007,
+        "avg_clean_points_per_sentence": 38.06,
+        "avg_unit_size_model_a": 1.008,
+        "avg_unit_size_model_b": 1.015
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9952,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0048,
+        "avg_clean_points_per_sentence": 42.27,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.018
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 8.38,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "gpt_oss_20b_vs_qwen3_32b": {
+    "overall": {
+      "bucket_1_pct": 0.9755,
+      "bucket_2_pct": 0.016,
+      "bucket_3_pct": 0.0084,
+      "avg_clean_points_per_sentence": 24.26
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9706,
+        "bucket_2_pct": 0.0242,
+        "bucket_3_pct": 0.0051,
+        "avg_clean_points_per_sentence": 17.59,
+        "avg_unit_size_model_a": 1.019,
+        "avg_unit_size_model_b": 1.02
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 36.65,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.26,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8689,
+        "bucket_2_pct": 0.0632,
+        "bucket_3_pct": 0.0678,
+        "avg_clean_points_per_sentence": 27.0,
+        "avg_unit_size_model_a": 1.142,
+        "avg_unit_size_model_b": 1.078
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.999,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.001,
+        "avg_clean_points_per_sentence": 28.65,
+        "avg_unit_size_model_a": 1.001,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9908,
+        "bucket_2_pct": 0.0032,
+        "bucket_3_pct": 0.006,
+        "avg_clean_points_per_sentence": 34.23,
+        "avg_unit_size_model_a": 1.009,
+        "avg_unit_size_model_b": 1.009
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9451,
+        "bucket_2_pct": 0.0549,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 29.26,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.115
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.93,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "kimi_k2_vs_mistral_large": {
+    "overall": {
+      "bucket_1_pct": 0.9697,
+      "bucket_2_pct": 0.0145,
+      "bucket_3_pct": 0.0158,
+      "avg_clean_points_per_sentence": 28.84
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.8992,
+        "bucket_2_pct": 0.0429,
+        "bucket_3_pct": 0.0579,
+        "avg_clean_points_per_sentence": 21.47,
+        "avg_unit_size_model_a": 0.952,
+        "avg_unit_size_model_b": 1.122
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 44.35,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 35.73,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8754,
+        "bucket_2_pct": 0.0465,
+        "bucket_3_pct": 0.0781,
+        "avg_clean_points_per_sentence": 31.11,
+        "avg_unit_size_model_a": 0.944,
+        "avg_unit_size_model_b": 1.175
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9959,
+        "bucket_2_pct": 0.0037,
+        "bucket_3_pct": 0.0004,
+        "avg_clean_points_per_sentence": 32.21,
+        "avg_unit_size_model_a": 0.993,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.984,
+        "bucket_2_pct": 0.0113,
+        "bucket_3_pct": 0.0047,
+        "avg_clean_points_per_sentence": 38.31,
+        "avg_unit_size_model_a": 0.984,
+        "avg_unit_size_model_b": 1.015
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9687,
+        "bucket_2_pct": 0.0274,
+        "bucket_3_pct": 0.0039,
+        "avg_clean_points_per_sentence": 40.66,
+        "avg_unit_size_model_a": 0.948,
+        "avg_unit_size_model_b": 1.018
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 8.37,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "kimi_k2_vs_qwen3_32b": {
+    "overall": {
+      "bucket_1_pct": 0.973,
+      "bucket_2_pct": 0.0255,
+      "bucket_3_pct": 0.0015,
+      "avg_clean_points_per_sentence": 24.3
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9504,
+        "bucket_2_pct": 0.0496,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 14.86,
+        "avg_unit_size_model_a": 0.952,
+        "avg_unit_size_model_b": 1.023
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 36.76,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.34,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8979,
+        "bucket_2_pct": 0.0888,
+        "bucket_3_pct": 0.0133,
+        "avg_clean_points_per_sentence": 28.24,
+        "avg_unit_size_model_a": 0.944,
+        "avg_unit_size_model_b": 1.079
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9954,
+        "bucket_2_pct": 0.0046,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 28.42,
+        "avg_unit_size_model_a": 0.993,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9843,
+        "bucket_2_pct": 0.0152,
+        "bucket_3_pct": 0.0006,
+        "avg_clean_points_per_sentence": 34.66,
+        "avg_unit_size_model_a": 0.986,
+        "avg_unit_size_model_b": 1.009
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9265,
+        "bucket_2_pct": 0.0735,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 30.85,
+        "avg_unit_size_model_a": 0.945,
+        "avg_unit_size_model_b": 1.106
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 7.94,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  },
+  "mistral_large_vs_qwen3_32b": {
+    "overall": {
+      "bucket_1_pct": 0.9736,
+      "bucket_2_pct": 0.0083,
+      "bucket_3_pct": 0.0181,
+      "avg_clean_points_per_sentence": 28.79
+    },
+    "by_category": {
+      "cjk": {
+        "bucket_1_pct": 0.9345,
+        "bucket_2_pct": 0.0042,
+        "bucket_3_pct": 0.0613,
+        "avg_clean_points_per_sentence": 22.41,
+        "avg_unit_size_model_a": 1.122,
+        "avg_unit_size_model_b": 1.015
+      },
+      "code": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 44.16,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "complex_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 35.92,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      },
+      "edge_cases": {
+        "bucket_1_pct": 0.8827,
+        "bucket_2_pct": 0.024,
+        "bucket_3_pct": 0.0934,
+        "avg_clean_points_per_sentence": 31.13,
+        "avg_unit_size_model_a": 1.179,
+        "avg_unit_size_model_b": 1.069
+      },
+      "mathematical": {
+        "bucket_1_pct": 0.9992,
+        "bucket_2_pct": 0.0005,
+        "bucket_3_pct": 0.0004,
+        "avg_clean_points_per_sentence": 32.63,
+        "avg_unit_size_model_a": 1.001,
+        "avg_unit_size_model_b": 1.001
+      },
+      "mixed": {
+        "bucket_1_pct": 0.9923,
+        "bucket_2_pct": 0.0007,
+        "bucket_3_pct": 0.007,
+        "avg_clean_points_per_sentence": 38.03,
+        "avg_unit_size_model_a": 1.015,
+        "avg_unit_size_model_b": 1.008
+      },
+      "multilingual": {
+        "bucket_1_pct": 0.9504,
+        "bucket_2_pct": 0.0448,
+        "bucket_3_pct": 0.0048,
+        "avg_clean_points_per_sentence": 39.04,
+        "avg_unit_size_model_a": 1.018,
+        "avg_unit_size_model_b": 1.089
+      },
+      "simple_english": {
+        "bucket_1_pct": 1.0,
+        "bucket_2_pct": 0.0,
+        "bucket_3_pct": 0.0,
+        "avg_clean_points_per_sentence": 8.41,
+        "avg_unit_size_model_a": 1.0,
+        "avg_unit_size_model_b": 1.0
+      }
+    }
+  }
+}

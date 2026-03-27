@@ -1,0 +1,23 @@
+# Activations (huge memory-mapped files)
+activation_experiment/activations/
+
+# Generated results (GB of .npy files, reproducible from code)
+activation_experiment/results/
+
+# Large data files (keep code, ignore generated data)
+activation_experiment/data/*.json
+activation_experiment/data/*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Binary data
+*.npy
+*.mmap
+.claude/settings.local.json

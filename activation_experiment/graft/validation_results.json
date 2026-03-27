@@ -1,0 +1,162 @@
+{
+  "S0: embed->layer0|The quick brown fox jumps over": {
+    "cos_mean": 1.000000238418579,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S2/S3: ->layer15|The quick brown fox jumps over": {
+    "cos_mean": 1.000000238418579,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S1: ->layer23|The quick brown fox jumps over": {
+    "cos_mean": 1.000000238418579,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S4: ->layer31|The quick brown fox jumps over": {
+    "cos_mean": 1.000000238418579,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S0: embed->layer0|In 1789, the French Revolution": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S2/S3: ->layer15|In 1789, the French Revolution": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S1: ->layer23|In 1789, the French Revolution": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S4: ->layer31|In 1789, the French Revolution": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S0: embed->layer0|def fibonacci(n):\n    if n <= ": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999999403953552,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S2/S3: ->layer15|def fibonacci(n):\n    if n <= ": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999999403953552,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S1: ->layer23|def fibonacci(n):\n    if n <= ": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999999403953552,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S4: ->layer31|def fibonacci(n):\n    if n <= ": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999999403953552,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S0: embed->layer0|Depuis la transition vers la d": {
+    "cos_mean": 1.0,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S2/S3: ->layer15|Depuis la transition vers la d": {
+    "cos_mean": 1.0,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S1: ->layer23|Depuis la transition vers la d": {
+    "cos_mean": 1.0,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S4: ->layer31|Depuis la transition vers la d": {
+    "cos_mean": 1.0,
+    "cos_min": 1.0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S0: embed->layer0|Calculate the area: A = pi * r": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S2/S3: ->layer15|Calculate the area: A = pi * r": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S1: ->layer23|Calculate the area: A = pi * r": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  },
+  "S4: ->layer31|Calculate the area: A = pi * r": {
+    "cos_mean": 1.0,
+    "cos_min": 0.9999998807907104,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "top1_agreement": 1.0,
+    "passed": true
+  }
+}
