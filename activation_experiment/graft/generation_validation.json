@@ -1,0 +1,102 @@
+[
+  {
+    "category": "code",
+    "prompt": "def fibonacci(n):\n    \"\"\"Return the nth Fibonacci number.\"\"\"\n",
+    "graft_output": "    return n\n\nfibonacci([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) \nfibonacci = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] \nfibonacci = [1, 2, 3, 4, 5, 6, 7, 8, 9",
+    "llama_output": "    if n <= 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci(n-1) + fibonacci(n-2)\n\n# Test the function\nprint(fibonacci(10))  # Output: 55\n```\n\nHowever, this recursive implementation has a major flaw: it does a lot of repeated work. For example, to calculate `fibonacci(10)`, it needs to calculate `fibonacci(9",
+    "graft_tokens": 100,
+    "graft_time": 28.208601236343384,
+    "llama_time": 3.4618401527404785,
+    "graft_tok_per_sec": 3.5450180305701244
+  },
+  {
+    "category": "code",
+    "prompt": "def merge_sort(arr):\n    \"\"\"Sort array using merge sort.\"\"\"\n",
+    "graft_output": "    if len(arr) == 1:\n        return arr\n    merge_sort(arr)\n    return len(arr) // 2\n    return merge_sort(arr[1], merge_sort[2])\nprint(merge_sort([1, 2, 3, 4, 5]).sort(arr)) \nprint(merge_sort([1, 2, 3, 4, 5]).sort()) \nprint(merge_sort([1, 2, 3, 4",
+    "llama_output": "    if len(arr) <= 1:\n        return arr\n    mid = len(arr) // 2\n    left_half = arr[:mid]\n    right_half = arr[mid:]\n    return merge(merge_sort(left_half), merge_sort(right_half))\n\n\ndef merge(left, right):\n    \"\"\"Merge two sorted lists into one sorted list.\"\"\"\n    merged = []\n    left_index = 0\n    right_index = 0\n    while left_index < len(left) and right_index < len",
+    "graft_tokens": 100,
+    "graft_time": 27.501847982406616,
+    "llama_time": 3.186500072479248,
+    "graft_tok_per_sec": 3.636119291473491
+  },
+  {
+    "category": "code",
+    "prompt": "SELECT name, department, salary FROM employees WHERE",
+    "graft_output": " department_id = 12345;\nSELECT name FROM employees WHERE department_id = 12345;SELECT name, department_id, salary FROM employees WHERE department_id = 123;SELECT name, department_id, salary FROM employees WHERE department_id = 123;SELECT name, department_id, salary FROM employees WHERE department_id = 123;SELECT name, department_id, salary FROM employees WHERE department_id = 123;SELECT name, department_id, salary FROM employees WHERE department_id = 123;SELECT",
+    "llama_output": " salary > 50000;\n```\n\nThis query will return the names, departments, and salaries of all employees who earn more than $50,000.\n\n### Example 2: Filtering by Multiple Conditions\n\n```sql\nSELECT name, department, salary FROM employees WHERE salary > 50000 AND department = 'Sales';\n```\n\nThis query will return the names, departments, and salaries of all employees in the Sales department who earn more than $50,000.\n\n### Example 3: Filtering by",
+    "graft_tokens": 100,
+    "graft_time": 18.204603910446167,
+    "llama_time": 2.2425029277801514,
+    "graft_tok_per_sec": 5.493115944292422
+  },
+  {
+    "category": "english",
+    "prompt": "The discovery of penicillin in 1928 revolutionized medicine because",
+    "graft_output": " it was known to be ineffective against certain bacteria. Penicillin was not widely used at the time, but it was not until 1938 that the first clinical trials of penicillin began. The first clinical trial of penicillin was conducted by John B. S. Billings, a physician at the University of Pennsylvania, in 1938. The first clinical trial of penicillin was conducted by John B. S. Billings, a physician at the University of Pennsylvania. The",
+    "llama_output": " it was the first antibiotic to be used to treat bacterial infections. Penicillin is a naturally occurring substance produced by the fungus Penicillium notatum. Alexander Fleming, a Scottish scientist, discovered penicillin when he observed that a mold had contaminated one of his bacterial cultures. He isolated the substance and tested it on bacterial cultures, finding that it killed the bacteria. Fleming's discovery led to the development of penicillin as a medicine, which was first used to treat bacterial infections in the",
+    "graft_tokens": 100,
+    "graft_time": 26.315297603607178,
+    "llama_time": 2.5729994773864746,
+    "graft_tok_per_sec": 3.8000710273667004
+  },
+  {
+    "category": "english",
+    "prompt": "The three main branches of the United States government are",
+    "graft_output": " the legislative, executive, and judicial branches. The legislative branch is composed of Congress, the executive branch, and the judicial branch. The executive branch is responsible for making laws, appointing judges, and enforcing court decisions. The judicial branch is composed of the Supreme Court, the Court of Appeals, and the federal courts. The executive branch is responsible for making laws, appointing judges, and enforcing court decisions. The judicial branch is responsible for making laws, appointing judges, and enforcing court decisions.",
+    "llama_output": " the legislative, executive, and judicial. The legislative branch is made up of Congress, which is divided into two houses: the House of Representatives and the Senate. The executive branch is headed by the President, who is both the head of state and the head of government. The judicial branch is made up of the Supreme Court and lower federal courts.\nThe legislative branch is responsible for making the laws of the land. It is composed of Congress, which is divided into two houses: the House of Representatives and",
+    "graft_tokens": 100,
+    "graft_time": 17.805525302886963,
+    "llama_time": 2.7720015048980713,
+    "graft_tok_per_sec": 5.61623419129264
+  },
+  {
+    "category": "conversational",
+    "prompt": "Explain the difference between a stack and a queue in simple terms.",
+    "graft_output": " \nA stack is a data structure that stores data in a hierarchical manner. It is made up of layers of data that are stacked on top of each other. Each layer can hold a certain amount of data, and the data is stored in a queue. A queue is a data structure that allows data to be stored in a hierarchical manner. It is made up of layers that are stacked on top of each other, allowing data to be stored in a more organized way. A queue is a data structure",
+    "llama_output": "](https://i.stack.imgur.com/6Q6QF.png)\n\nA stack is like a pile of plates. You can add plates to the top of the pile and remove them from the top. You can't add plates to the middle or bottom of the pile, and you can't remove plates from the middle or bottom.\n\nA queue is like a line of people waiting for a bus. You can add people to the end of the line and remove them from the front of the line.",
+    "graft_tokens": 100,
+    "graft_time": 19.532023906707764,
+    "llama_time": 2.6630115509033203,
+    "graft_tok_per_sec": 5.119797133038405
+  },
+  {
+    "category": "conversational",
+    "prompt": "What are three practical tips for learning a new programming language?",
+    "graft_output": " \n1. Learn the basics of the language and practice writing code. \n2. Practice debugging and testing your code. \n3. Use version control and source control. \n4. Use a debugger to identify and fix errors in your code. \n5. Use a compiler to compile your code. \n6. Use a code editor to write and edit your code. \n7. Use a code repository to store your code. \n8. Use a code formatter to format your code. \n9",
+    "llama_output": " \n\n1.  **Start with the basics**: Before diving into a new language, make sure you understand the fundamentals of programming, such as data types, variables, control structures, functions, and object-oriented programming concepts. This will provide a solid foundation for learning the new language.\n2.  **Practice with real-world projects**: As you learn the language, apply your knowledge by working on real-world projects. This will help you understand how the language is used in practice and give you hands-on experience",
+    "graft_tokens": 100,
+    "graft_time": 25.184020280838013,
+    "llama_time": 2.3540520668029785,
+    "graft_tok_per_sec": 3.9707718976103226
+  },
+  {
+    "category": "math",
+    "prompt": "A store sells apples for $2 each and oranges for $3 each. If Sarah buys 5 apples and",
+    "graft_output": " 3 oranges, how much money does she make?\nAnswer: The store sells 5 apples for $2 each and 3 oranges for $3 each, so the total cost is 5*2 = $<<5*2=10>>10.\nThe store makes a profit of $10*3 = $<<10*3=30>>30.\n#### 30\nThe store makes a profit of $30*3 = $<<30*3=90>>90.\n#### ",
+    "llama_output": " 3 oranges, how much will she pay in total?\n## Step 1: Calculate the cost of the apples\nThe cost of the apples is the number of apples multiplied by the price of each apple. So, 5 apples * $2 = $10.\n\n## Step 2: Calculate the cost of the oranges\nThe cost of the oranges is the number of oranges multiplied by the price of each orange. So, 3 oranges * $3 = $9.\n\n## Step 3",
+    "graft_tokens": 100,
+    "graft_time": 93.84153890609741,
+    "llama_time": 3.000000476837158,
+    "graft_tok_per_sec": 1.0656261732884096
+  },
+  {
+    "category": "multilingual",
+    "prompt": "La revolution industrielle a commence en Angleterre au",
+    "graft_output": " milieu du XIXe siècleclele où les idées de la Révolution française ont été influencées par les philosophes de l'Allemagneagne, de l'Italie et de la Russie. La révolution française a également été influencée par les idées de la Révolution française et de l'Empire françaisais. Les idées de la Révolution française ont été influencées par les philosophes de l'Allemagneagne, les id",
+    "llama_output": " XVIIIe siècle, et s'est ensuite étendue à l'Europe continentale et aux États-Unis. Elle a été caractérisée par l'adoption de nouvelles technologies, l'urbanisation et la croissance économique. La révolution industrielle a eu un impact significatif sur la société, la culture et l'environnement.\n\nLa révolution industrielle a été marquée par l'adoption de nouvelles technologies, telles que la",
+    "graft_tokens": 100,
+    "graft_time": 45.190409898757935,
+    "llama_time": 3.1835336685180664,
+    "graft_tok_per_sec": 2.212858883644437
+  },
+  {
+    "category": "mixed",
+    "prompt": "Here is a Python function that calculates the area of a circle:\n```python\nimport math\ndef area(",
+    "graft_output": "centre_x, radius_y):\n    area = 0.5 * (centre_x ** 2)\n    radius = 5\n    return area\n```\nThe area of a circle is calculated by the formula `area = π * radius**2`. This formula is used to calculate the area of a circle with a given radius and centre. The area of a circle is calculated by the formula `area = π * radius**2 / 2`. This formula is used to calculate the area",
+    "llama_output": " radius ):\n    return math.pi * radius ** 2\n```\nThis function takes a single argument, `radius`, which is the radius of the circle. It returns the area of the circle, calculated using the formula `πr^2`.\n\nHere is an example of how you might use this function:\n```python\nradius = 5\narea = area( radius )\nprint( area )\n```\nThis code defines a variable `radius` with the value `5`, calls the `area",
+    "graft_tokens": 100,
+    "graft_time": 28.834599494934082,
+    "llama_time": 3.047524929046631,
+    "graft_tok_per_sec": 3.4680557993381833
+  }
+]
